@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<main>
+		<div class="glass">
+			<div class="square" style="--id:0"></div>
+			<div class="square" style="--id:2"></div>
+			<div class="square" style="--id:4"></div>
+			<div class="square" style="--id:6"></div>
+			<div class="square" style="--id:8"></div>
+
+			<h1 class="heading">Weather</h1>
+			
+			<div class="row row-1">
+				<form action="">
+					<!-- <i class="fa-solid fa-magnifying-glass icon"></i> -->
+					<input type="search" id="search" placeholder="Search by location">
+				</form>
+			</div>
+			<div class="row" id="weather">
+			</div>
+			<button id="current-loc">Use current location</button>
+		</div>
+	</main>
+	<script src="scripts.js"></script>
+</body>
+</html>
